@@ -6,6 +6,12 @@ reward artwork drawn with **Turtle graphics**.
 
 Built with Python and [Streamlit](https://streamlit.io).
 
+## Live app
+
+[Open MedTimer](https://idai012605269gunveersinghdhamo-4cqyz2igxdcla7obbtk5xq.streamlit.app/)
+
+School demo only. Use made-up medicines, not real health data. All visitors share the same demo data; dates and reminders use the hosting server clock.
+
 ## Features
 
 - **Add, edit and delete medicines** - name, dose, up to 4 times a day, and notes
