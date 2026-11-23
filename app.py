@@ -218,7 +218,7 @@ with st.form("add_med", clear_on_submit=True):
     dose = st.text_input("Dose", placeholder="e.g. 1 tablet · 500 mg")
     n_times = st.selectbox("How many times a day?", [1, 2, 3, 4])
     times = [
-        st.time_input(f"Time {i + 1}", dt.time(8 + i * 6))
+        st.time_input(f"Time {i + 1}", dt.time(min(8 + i * 6, 23)))
         for i in range(n_times)
     ]
     notes = st.text_input("Notes (optional)", placeholder="e.g. after breakfast")
