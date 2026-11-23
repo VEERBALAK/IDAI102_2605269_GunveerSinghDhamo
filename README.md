@@ -8,7 +8,7 @@ Built with Python and [Streamlit](https://streamlit.io).
 
 ## Live app
 
-[Open MedTimer](https://idai012605269gunveersinghdhamo-4cqyz2igxdcla7obbtk5xq.streamlit.app/)
+[Open MedTimer](https://idai102-2605269-gunveersinghdhamo.streamlit.app/)
 
 School demo only. Use made-up medicines, not real health data. All visitors share the same demo data; dates and reminders use the hosting server clock.
 
